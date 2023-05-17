@@ -1,0 +1,16 @@
+$TTL 86400
+@   IN  SOA     centos-dns.sg.com. root.centos-dns.sg.com. (
+        2022041901  ;Serial
+        3600        ;Refresh
+        1800        ;Retry
+        604800      ;Expire
+        86400       ;Minimum TTL
+)
+; Name Server Information
+@       IN  NS      centos-dns.sg.com.
+
+; IP Address-to-Host Mapping
+40      IN  PTR     centos-dns.sg.com.
+10      IN  PTR     centos-client.sg.com.
+20      IN  PTR     centos-file.sg.com.
+30      IN  PTR     centos-client-sec.sg.com.
